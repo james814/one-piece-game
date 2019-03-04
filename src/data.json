@@ -1,56 +1,47 @@
 [
   {
+    "id": 0,
     "content": "你是男生還是女生?",
-    "answers": {
-      "left": "男",
-      "right": "女"
-    },
+    "answers": [
+      {
+        "text": "男",
+        "target": 11
+      },
+      {
+        "text": "女",
+        "target": 12
+      }
+    ],
     "nextQuestions": [
       {
-        "left": {
-          "content": "你愛好和平? 亦或是路見不平，拔刀相助?",
-          "answers": {
-            "left": "和平",
-            "right": "路見不平"
+        "id": 11,
+        "content": "你愛好和平? 亦或是路見不平，拔刀相助?",
+        "answers": [
+          {
+            "text": "和平",
+            "target": 11
           },
-          "nextQuestions": [
-            {
-              "left": {
-                "content": "你是個肥宅嗎?",
-                "answers": {
-                  "left": "是",
-                  "right": "否"
-                },
-                "result": [
-                  {
-                    "des": "世界第一劍客!!如果沒有迷路就包在我身上(索龍)",
-                    "img": ""
-                  }
-                ]
-              },
-              "right": {
-                "content": "你平常做事會用腦嗎?",
-                "answers": {
-                  "left": "是",
-                  "right": "否"
-                },
-                "result": [
-                  {
-                    "des": "",
-                    "img": ""
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "right": {
-          "content": "妳有前凸後翹的好身材嗎?",
-          "answers": {
-            "left": "是",
-            "right": "否"
+          {
+            "text": "路見不平",
+            "target": 12
           }
-        }
+        ],
+        "nextQuestions": []
+      },
+      {
+        "id": 12,
+        "content": "妳有前凸後翹的好身材嗎?",
+        "answers": [
+          {
+            "text": "是",
+            "target": 11
+          },
+          {
+            "text": "否",
+            "target": 12
+          }
+        ],
+        "nextQuestions": []
       }
     ]
   }
