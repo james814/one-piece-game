@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import App from './App'
 import Result from './Result'
 import Transitions from './Transitions';
+import style from './style/style.module.scss';
 
 class Questions extends Component {
   state = {
@@ -14,7 +15,7 @@ class Questions extends Component {
       target: target
     })
   }
-  setResult = (result) => { 
+  setResult = (result) => {
     this.setState({
       nextStep: "result",
       target: result
@@ -56,20 +57,22 @@ class Questions extends Component {
         return (
           <div>
             <Transitions />
-            <div>{content}</div>
-            {
-              answers.map((elm) => (
-                <button
-                  key={elm.text}
-                  onClick={() => {
-                    elm.target && this.nextQues(elm.target)
-                    elm.result && this.setResult(elm.result)
-                  }}
-                >
-                  {elm.text}
-                </button>
-              ))
-            }
+            <div className={style.lazyShow}>
+              <div>{content}</div>
+              {
+                answers.map((elm) => (
+                  <button
+                    key={elm.text}
+                    onClick={() => {
+                      elm.target && this.nextQues(elm.target)
+                      elm.result && this.setResult(elm.result)
+                    }}
+                  >
+                    {elm.text}
+                  </button>
+                ))
+              }
+            </div>
           </div>
         );
     }

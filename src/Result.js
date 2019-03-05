@@ -10,12 +10,14 @@ class Result extends Component {
     return (
       <div>
         <Transitions />
-        <div>{des}</div>
-        <div>{character}</div>
-        <div className={`${imgClass} ${style.imageBoard}`}></div>
-        <div onClick={reset}>
-          <div className={ball.ball}></div>
-          <div className={ball.ball_shadow}></div>
+        <div className={style.lazyShow}>
+          <div>{des}</div>
+          <div>{character}</div>
+          <div className={`${imgClass} ${style.imageBoard}`}></div>
+          <div onClick={reset}>
+            <div className={ball.ball}></div>
+            <div className={ball.ball_shadow}></div>
+          </div>
         </div>
       </div>
     );
