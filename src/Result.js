@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Transitions from './Transitions';
 import style from './style/style.module.scss';
 import ball from './style/ball.module.scss';
 import './style/character.scss';
@@ -8,6 +9,7 @@ class Result extends Component {
     const { des, imgClass, character, reset } = this.props
     return (
       <div>
+        <Transitions />
         <div>{des}</div>
         <div>{character}</div>
         <div className={`${imgClass} ${style.imageBoard}`}></div>

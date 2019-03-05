@@ -15,11 +15,11 @@ class Transitions extends Component {
     })
   }
   componentWillUnmount() {
-    this.umb.current.removeEventListener('animationend', () => {
-      this.setState({
-        animate: false
-      })
-    })
+    // this.umb.current.removeEventListener('animationend', () => {
+    //   this.setState({
+    //     animate: false
+    //   })
+    // })
   }
   render() {
     return (

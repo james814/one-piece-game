@@ -13,54 +13,66 @@
 .leftUmb {
   width: 1750px;
   height: 1750px;
-  left: -900px;
-  top: -1100px;
+  left: -1700px;
+  top: -1400px;
   -webkit-animation: leftUmb 2s linear 1;
   animation: leftUmb 2s linear 1;
 }
 
 @-webkit-keyframes leftUmb {
   0% {
-    left: -800px;
+    left: -1400px;
     transform: rotate(0deg);
   }
   20% {
-    left: -750px;
+    left: -1000px;
   }
   40% {
-    left: -700px;
+    left: -800px;
     top: -500px;
   }
-  60% {
+  50%{
     left: -750px;
   }
+  60% {
+    left: -700px;
+  }
+  70%{
+    left: -800px;
+  }
   80% {
-    left: -900px;
+    left: -1000px;
   }
   100% {
     left: -1300px;
-    top: 500px;
+    top: 550px;
     transform: rotate(360deg);
   }
 }
 
 @keyframes leftUmb {
   0% {
-    left: -800px;
+    left: -1400px;
     transform: rotate(0deg);
   }
   20% {
-    left: -750px;
+    left: -1000px;
   }
   40% {
-    left: -700px;
+    left: -800px;
     top: -500px;
   }
-  60% {
+  50%{
     left: -750px;
   }
+  60% {
+    left: -700px;
+  }
+  70%{
+    left: -800px;
+  }
   80% {
-    left: -900px;
+    left: -1000px;
   }
   100% {
     left: -1300px;
@@ -73,36 +85,65 @@
   width: 1650px;
   height: 1650px;
   left: 950px;
-  top: -100px;
+  top: 1000px;
   -webkit-animation: rightUmb 2s linear 1;
   animation: rightUmb 2s linear 1;
 }
 
-@-webkit-keyframes rightUmb {}
-
-@keyframes rightUmb {
+@-webkit-keyframes rightUmb {
   0% {
     left: 900px;
+    top: 800px;
     transform: rotate(0deg);
   }
   20% {
     left: 850px;
+    top: 500px;
   }
   40% {
     left: 900px;
-    top: -200px;
+    top: 100px;
   }
   60% {
     left: 1000px;
-    top: -150px;
+    top: -200px;
   }
   80% {
     left: 1200px;
-    top: -75px;
+    top: -300px;
   }
   100% {
     left: 1550px;
-    top: 0px;
+    top: -400px;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rightUmb {
+  0% {
+    left: 900px;
+    top: 800px;
+    transform: rotate(0deg);
+  }
+  20% {
+    left: 850px;
+    top: 500px;
+  }
+  40% {
+    left: 900px;
+    top: 100px;
+  }
+  60% {
+    left: 1000px;
+    top: -200px;
+  }
+  80% {
+    left: 1200px;
+    top: -300px;
+  }
+  100% {
+    left: 1550px;
+    top: -400px;
     transform: rotate(360deg);
   }
 }

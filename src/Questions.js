@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import App from './App'
 import Result from './Result'
+import Transitions from './Transitions';
 
 class Questions extends Component {
   state = {
@@ -13,7 +14,7 @@ class Questions extends Component {
       target: target
     })
   }
-  setResult = (result) => {
+  setResult = (result) => { 
     this.setState({
       nextStep: "result",
       target: result
@@ -54,6 +55,7 @@ class Questions extends Component {
       default://顯示問題
         return (
           <div>
+            <Transitions />
             <div>{content}</div>
             {
               answers.map((elm) => (
