@@ -1,47 +1,76 @@
 import React, { Component } from 'react';
+import App from './App'
+import Result from './Result'
 
 class Questions extends Component {
   state = {
-    nextStep: false,
+    nextStep: null,
     target: null
   }
-  nextEvent = (target) => {
-    if (target) {
-      this.setState({
-        nextStep: true,
-        target: target
-      })
-    }
+  nextQues = (target) => {
+    this.setState({
+      nextStep: "ques",
+      target: target
+    })
+  }
+  setResult = (result) => {
+    this.setState({
+      nextStep: "result",
+      target: result
+    })
+  }
+  reset = () => {
+    this.setState({
+      nextStep: "reset"
+    })
   }
   render() {
     const { nextStep, target } = this.state
     const { content, answers, nextQuestions } = this.props
-    if (nextStep) {
-      return (
-        <div>
-          {
-            nextStep && nextQuestions.map(elm => (
-              elm.id === target && <Questions key={elm.id} {...elm} />
-            ))
-          }
-        </div>
-      )
+
+    switch (nextStep) {
+      case "ques"://下一個問題
+        return (
+          <div>
+            {
+              nextQuestions.map(elm => (
+                elm.id === target && <Questions key={elm.id} {...elm} />
+              ))
+            }
+          </div>
+        );
+      case "result"://做答完成
+        return (
+          <div>
+            <Result {...target} reset={this.reset} />
+          </div>
+        );
+      case "reset"://重置
+        return (
+          <div>
+            <App />
+          </div>
+        );
+      default://顯示問題
+        return (
+          <div>
+            <div>{content}</div>
+            {
+              answers.map((elm) => (
+                <button
+                  key={elm.text}
+                  onClick={() => {
+                    elm.target && this.nextQues(elm.target)
+                    elm.result && this.setResult(elm.result)
+                  }}
+                >
+                  {elm.text}
+                </button>
+              ))
+            }
+          </div>
+        );
     }
-    return (
-      <div>
-        <div>{content}</div>
-        {
-          answers.map((elm) => (
-            <button
-              key={elm.text}
-              onClick={() => this.nextEvent(elm.target)}
-            >
-              {elm.text}
-            </button>
-          ))
-        }
-      </div>
-    );
   }
 }
 

@@ -1,0 +1,18 @@
+.wrapper {
+  height: 500px;
+  background: url('/images/bg1.jpg') no-repeat 50% 100%;
+}
+
+.wrapper_bottom {
+  height: 260px;
+  background: url('/images/bg2.jpg') no-repeat 50% 0;
+}
+
+.imageBoard {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

@@ -1,0 +1,140 @@
+.ball{
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  right: 0;
+  left: 0;
+  bottom: 70px;
+  border-radius: 25px;
+  background-color: #d87070;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  -webkit-animation: navBall 2s infinite cubic-bezier(0.24, 0.2, 0.84, 1);
+          animation: navBall 2s infinite cubic-bezier(0.24, 0.2, 0.84, 1);
+}
+
+.ball::before{
+  content: "⟲";
+  color: #fafafa;
+  font-size: 35px;
+  margin: auto;
+  top: 6px;
+  left: 2px;
+  right: 0;
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+@-webkit-keyframes navBall {
+  0%{
+    bottom: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  46%{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  50%{
+    bottom: 32px;
+    width: 55px;
+    height: 45px;
+    border-radius: 27.5px/22.5px;
+  }
+  54%{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  100%{
+    bottom: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+}
+
+@keyframes navBall {
+  0%{
+    bottom: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  46%{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  50%{
+    bottom: 32px;
+    width: 55px;
+    height: 45px;
+    border-radius: 27.5px/22.5px;
+  }
+  54%{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  100%{
+    bottom: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+}
+
+.ball_shadow{
+  width: 20px;
+  height: 10px;
+  border-radius: 10px/5px;
+  margin: auto;
+  right: 0;
+  left: 0;
+  bottom: 20px;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, .3);
+  position: absolute;
+  -webkit-animation: navShadow 2s infinite cubic-bezier(0.24, 0.2, 0.84, 1);
+          animation: navShadow 2s infinite cubic-bezier(0.24, 0.2, 0.84, 1);
+}
+
+@-webkit-keyframes navShadow {
+  0%{
+    width: 20px;
+    height: 10px;
+    border-radius: 10px/5px;
+  }
+  50%{
+    width: 50px;
+    height: 25px;
+    border-radius: 25px/12.5px;
+  }
+  100%{
+    width: 20px;
+    height: 10px;
+    border-radius: 10px/5px;
+  }
+}
+
+@keyframes navShadow {
+  0%{
+    width: 20px;
+    height: 10px;
+    border-radius: 10px/5px;
+  }
+  50%{
+    width: 50px;
+    height: 25px;
+    border-radius: 25px/12.5px;
+  }
+  100%{
+    width: 20px;
+    height: 10px;
+    border-radius: 10px/5px;
+  }
+}
