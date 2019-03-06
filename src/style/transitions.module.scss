@@ -1,6 +1,6 @@
 .umbrella {
   position: fixed;
-  z-index: 5;
+  z-index: 100;
 }
 
 .leftUmb,
@@ -15,13 +15,13 @@
   height: 1750px;
   left: -1700px;
   top: -1400px;
-  -webkit-animation: leftUmb 2s linear 1;
-  animation: leftUmb 2s linear 1;
+  -webkit-animation: leftUmb 1.5s linear 1;
+  animation: leftUmb 1.5s linear 1;
 }
 
 @-webkit-keyframes leftUmb {
   0% {
-    left: -1400px;
+    left: -1300px;
     transform: rotate(0deg);
   }
   20% {
@@ -32,19 +32,19 @@
     top: -500px;
   }
   50%{
-    left: -750px;
-  }
-  60% {
     left: -700px;
   }
+  60% {
+    left: -650px;
+  }
   70%{
-    left: -800px;
+    left: -700px;
   }
   80% {
-    left: -1000px;
+    left: -900px;
   }
   100% {
-    left: -1300px;
+    left: -1200px;
     top: 550px;
     transform: rotate(360deg);
   }
@@ -52,7 +52,7 @@
 
 @keyframes leftUmb {
   0% {
-    left: -1400px;
+    left: -1300px;
     transform: rotate(0deg);
   }
   20% {
@@ -63,19 +63,19 @@
     top: -500px;
   }
   50%{
-    left: -750px;
-  }
-  60% {
     left: -700px;
   }
+  60% {
+    left: -650px;
+  }
   70%{
-    left: -800px;
+    left: -700px;
   }
   80% {
-    left: -1000px;
+    left: -900px;
   }
   100% {
-    left: -1300px;
+    left: -1200px;
     top: 550px;
     transform: rotate(360deg);
   }
@@ -86,8 +86,8 @@
   height: 1650px;
   left: 950px;
   top: 1000px;
-  -webkit-animation: rightUmb 2s linear 1;
-  animation: rightUmb 2s linear 1;
+  -webkit-animation: rightUmb 1.5s linear 1;
+  animation: rightUmb 1.5s linear 1;
 }
 
 @-webkit-keyframes rightUmb {

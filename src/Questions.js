@@ -57,21 +57,24 @@ class Questions extends Component {
         return (
           <div>
             <Transitions />
-            <div className={style.lazyShow}>
-              <div>{content}</div>
-              {
-                answers.map((elm) => (
-                  <button
-                    key={elm.text}
-                    onClick={() => {
-                      elm.target && this.nextQues(elm.target)
-                      elm.result && this.setResult(elm.result)
-                    }}
-                  >
-                    {elm.text}
-                  </button>
-                ))
-              }
+            <div className={style.contentWrapper}>
+              <div className={style.lazyShow}>
+                <div className={style.title}>{content}</div>
+                {
+                  answers.map((elm) => (
+                    <button
+                      key={elm.text}
+                      className={style.btn}
+                      onClick={() => {
+                        elm.target && this.nextQues(elm.target)
+                        elm.result && this.setResult(elm.result)
+                      }}
+                    >
+                      {elm.text}
+                    </button>
+                  ))
+                }
+              </div>
             </div>
           </div>
         );

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Transitions from './Transitions';
 import style from './style/style.module.scss';
-import ball from './style/ball.module.scss';
 import './style/character.scss';
 
 class Result extends Component {
@@ -10,15 +9,17 @@ class Result extends Component {
     return (
       <div>
         <Transitions />
-        <div className={style.lazyShow}>
-          <div>{des}</div>
-          <div>{character}</div>
-          <div className={`${imgClass} ${style.imageBoard}`}></div>
-          <div onClick={reset}>
-            <div className={ball.ball}></div>
-            <div className={ball.ball_shadow}></div>
+        <div className={style.contentWrapper}>
+          <div className={style.lazyShow}>
+            <div className={style.character}>{character}</div>
+            <div className={style.des}>{des}</div>
+            <div className={`${imgClass} ${style.imageBoard}`}>
+              <div className={style.border}></div>
+              <div className={`img ${style.img}`}></div>
+            </div>
           </div>
         </div>
+        <div className={`${style.reset} ${style.lazyShow}`} onClick={reset}></div>
       </div>
     );
   }
