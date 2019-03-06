@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/one-piece-game/static/media/Guleiwa_H.dc1d44fa.jpeg"
   },
   {
-    "revision": "0c1f8f9afd1ce064068b",
-    "url": "/one-piece-game/static/css/main.846cd763.chunk.css"
+    "revision": "d2e3ea45994adca2f622",
+    "url": "/one-piece-game/static/css/main.7d7f1e52.chunk.css"
   },
   {
     "revision": "412833e86127d196e7d2",
@@ -52,28 +52,28 @@ self.__precacheManifest = [
     "url": "/one-piece-game/static/media/Ross_H.bcccd297.jpg"
   },
   {
-    "revision": "0c1f8f9afd1ce064068b",
-    "url": "/one-piece-game/static/js/main.0c1f8f9a.chunk.js"
+    "revision": "d2e3ea45994adca2f622",
+    "url": "/one-piece-game/static/js/main.d2e3ea45.chunk.js"
   },
   {
     "revision": "0d8b525cf5e55f5a814c7a36e86c807d",
     "url": "/one-piece-game/static/media/Guleiwa.0d8b525c.jpg"
   },
   {
-    "revision": "05ee7f4c98a7d847519089a8ea258073",
-    "url": "/one-piece-game/static/media/Mansherry_H.05ee7f4c.jpg"
-  },
-  {
     "revision": "87f6c0ba451d584cf48760c882797700",
     "url": "/one-piece-game/static/media/Lora_H.87f6c0ba.jpg"
   },
   {
-    "revision": "b841650b4f664a9b51860a99f21755af",
-    "url": "/one-piece-game/static/media/CurBi.b841650b.jpg"
+    "revision": "05ee7f4c98a7d847519089a8ea258073",
+    "url": "/one-piece-game/static/media/Mansherry_H.05ee7f4c.jpg"
   },
   {
     "revision": "bcbdb00f4c9db87327a79940b02f10ed",
     "url": "/one-piece-game/static/media/CurBi_H.bcbdb00f.jpg"
+  },
+  {
+    "revision": "b841650b4f664a9b51860a99f21755af",
+    "url": "/one-piece-game/static/media/CurBi.b841650b.jpg"
   },
   {
     "revision": "c9cca00ef5d3c05e077d7b4f97af8048",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/one-piece-game/static/media/Ross.888a0b18.png"
   },
   {
-    "revision": "a458df015fe2bd3d04faa479e953d52f",
+    "revision": "a1e0f87bac343791616fe617aed226c2",
     "url": "/one-piece-game/index.html"
   }
 ];
