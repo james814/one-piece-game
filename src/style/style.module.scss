@@ -3,7 +3,7 @@
 }
 
 html{
-  background: url('/images/bg1.jpg') repeat 50% 100%;
+  background: url(./images/bg1.jpg) repeat 50% 100%;
 }
 
 body {
@@ -13,12 +13,12 @@ body {
 $content-height: 530px;
 .wrapper {
   height: $content-height;
-  background: url('/images/bg1.jpg') no-repeat 50% 100%;
+  background: url(./images/bg1.jpg) no-repeat 50% 100%;
 }
 
 .wrapper_bottom {
   height: 230px;
-  background: url('/images/bg2.jpg') no-repeat 50% 0;
+  background: url(./images/bg2.jpg) no-repeat 50% 0;
 }
 
 .contentWrapper {
@@ -34,7 +34,7 @@ $content-height: 530px;
     width: 50px;
     height: 100%;
     top: 0;
-    background-image: url('/images/border/border.png');
+    background-image: url(./images/border/border.png);
     background-size: auto 800px;
     position: absolute;
   }
@@ -134,7 +134,7 @@ $content-height: 530px;
       height: 400px;
       top: 0;
       left: 0;
-      background: url('/images/border/pic-border.png') no-repeat 50%;
+      background: url(./images/border/pic-border.png) no-repeat 50%;
       background-size: 100%;
       position: absolute;
       z-index: 2;
@@ -159,7 +159,7 @@ $content-height: 530px;
 .reset {
   width: 50px;
   height: 50px;
-  background: url('/images/reset.png') no-repeat 50%;
+  background: url(./images/reset.png) no-repeat 50%;
   background-size: 100%;
   position: absolute;
   right: 75px;
