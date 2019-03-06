@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/one-piece-game/static/media/Mansherry_H.05ee7f4c.jpg"
   },
   {
-    "revision": "bcbdb00f4c9db87327a79940b02f10ed",
-    "url": "/one-piece-game/static/media/CurBi_H.bcbdb00f.jpg"
-  },
-  {
     "revision": "b841650b4f664a9b51860a99f21755af",
     "url": "/one-piece-game/static/media/CurBi.b841650b.jpg"
+  },
+  {
+    "revision": "bcbdb00f4c9db87327a79940b02f10ed",
+    "url": "/one-piece-game/static/media/CurBi_H.bcbdb00f.jpg"
   },
   {
     "revision": "c9cca00ef5d3c05e077d7b4f97af8048",

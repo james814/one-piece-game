@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/one-piece-game/precache-manifest.5bf7b06e8e530c81821475ec7743e578.js"
+  "/one-piece-game/precache-manifest.9d02fd7bd4c4fed8119d236ad83c3109.js"
 );
 
 workbox.clientsClaim();
