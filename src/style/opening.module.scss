@@ -47,12 +47,12 @@
 }
 
 .wrapper.turn{
-  -webkit-animation: wrapper_turn 1s linear 1;
-  animation: wrapper_turn 1s linear 1;
+  -webkit-animation: wrapper_turn 1s ease-out 1;
+  animation: wrapper_turn 1s ease-out 1;
 }
 .wrapper_bottom.turn{
-  -webkit-animation: wrapper_bottom_turn 1s linear 1;
-  animation: wrapper_bottom_turn 1s linear 1;
+  -webkit-animation: wrapper_bottom_turn 1s ease-out 1;
+  animation: wrapper_bottom_turn 1s ease-out 1;
 }
 
 @-webkit-keyframes wrapper_turn {
