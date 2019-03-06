@@ -1,0 +1,23 @@
+import React from 'react';
+import Transitions from './Transitions';
+import style from './style/style.module.scss';
+import './style/character.scss';
+
+const Result = ({ des, imgClass, character, reset }) => (
+  <div>
+    <Transitions />
+    <div className={style.contentWrapper}>
+      <div className={style.lazyShow}>
+        <div className={style.character}>{character}</div>
+        <div className={style.des}>{des}</div>
+        <div className={`${imgClass} ${style.imageBoard}`}>
+          <div className={style.border}></div>
+          <div className={`img ${style.img}`}></div>
+        </div>
+      </div>
+    </div>
+    <div className={style.reset} onClick={reset}></div>
+  </div>
+)
+
+export default Result;
