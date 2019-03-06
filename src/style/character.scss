@@ -16,6 +16,7 @@
   &:hover {
     .img {
       background-image: url('/images/character/Ross_H.jpg');
+      background-position: 30% 50% !important;
     }
   }
 }
@@ -23,6 +24,7 @@
 .Zoro {
   .img {
     background-image: url('/images/character/Zoro.png');
+    background-position: 10% 50% !important;
   }
   &:hover {
     .img {
@@ -37,7 +39,7 @@
   }
   &:hover {
     .img {
-      background-image: url('/images/character/Luffy_H.jpg');
+      background-image: url('/images/character/Luffy_H.png');
     }
   }
 }
@@ -56,6 +58,7 @@
 .Nami {
   .img {
     background-image: url('/images/character/Nami.jpg');
+    background-position: 80% 50% !important;
   }
   &:hover {
     .img {
@@ -78,6 +81,7 @@
 .Lora {
   .img {
     background-image: url('/images/character/Lora.png');
+    background-position: 50% 0 !important;
   }
   &:hover {
     .img {

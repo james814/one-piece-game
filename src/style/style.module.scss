@@ -1,5 +1,9 @@
 * {
-  font-family: 'Noto Serif TC', serif !important;
+  font-family: 'Noto Serif TC', 'Times New Roman', Times, serif !important;
+}
+
+html{
+  background: url('/images/bg1.jpg') repeat 50% 100%;
 }
 
 body {
@@ -98,18 +102,19 @@ $content-height: 530px;
     top: 20%;
     left: 50%;
     position: absolute;
-    text-align: right;
   }
   .des {
     font-size: 20px;
     color: #222;
+    max-width: 45%;
+    line-height: 30px;
     padding: 15px;
     top: 45%;
     left: 50%;
     background-color: rgba(240, 240, 240, .2);
     border-radius: 15px;
     position: absolute;
-    text-align: right;
+    text-align: left;
     z-index: 3;
   }
   .imageBoard {
@@ -140,9 +145,9 @@ $content-height: 530px;
       margin: auto;
       top: 52px;
       left: 80px;
-      background-size: 120%;
-      background-repeat: no-repeat;
+      background-size: cover;
       background-position: 50% 50%;
+      background-repeat: no-repeat;
       border-radius: 50%;
       position: absolute;
       z-index: 1;
@@ -191,6 +196,17 @@ $content-height: 530px;
     position: absolute;
     transform: rotate(45deg);
   }
+}
+
+.Author{
+  font-size: 12px;
+  color: #c2c2c2;
+  line-height: 30px;
+  left: 50px;
+  bottom: 50px;
+  padding: 10px;
+  position: fixed;
+  border: 3px double #c2c2c2;
 }
 
 @-webkit-keyframes btnBefore {
