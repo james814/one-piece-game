@@ -1,3 +1,4 @@
+@import "./variables.scss";
 .umbrella {
   position: fixed;
   z-index: 100;
@@ -17,6 +18,12 @@
   top: -1400px;
   -webkit-animation: leftUmb 1.5s linear 1;
   animation: leftUmb 1.5s linear 1;
+  @include mobile {
+    width: 1000px;
+    height: 1000px;
+    left: 0;
+    top: -1000px;
+  }
 }
 
 @-webkit-keyframes leftUmb {
@@ -31,13 +38,13 @@
     left: -800px;
     top: -500px;
   }
-  50%{
+  50% {
     left: -700px;
   }
   60% {
     left: -650px;
   }
-  70%{
+  70% {
     left: -700px;
   }
   80% {
@@ -62,13 +69,13 @@
     left: -800px;
     top: -500px;
   }
-  50%{
+  50% {
     left: -700px;
   }
   60% {
     left: -650px;
   }
-  70%{
+  70% {
     left: -700px;
   }
   80% {
@@ -81,6 +88,67 @@
   }
 }
 
+@include mobile {
+  @-webkit-keyframes leftUmb {
+    0% {
+      left: 0;
+      transform: rotate(0deg);
+    }
+    20% {
+      left: -100px;
+    }
+    40% {
+      left: -200px;
+    }
+    50% {
+      left: -300px;
+    }
+    60% {
+      left: -450px;
+    }
+    70% {
+      left: -600px;
+    }
+    80% {
+      left: -800px;
+    }
+    100% {
+      left: -1100px;
+      top: 0;
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes leftUmb {
+    0% {
+      left: 0;
+      transform: rotate(0deg);
+    }
+    20% {
+      left: -100px;
+    }
+    40% {
+      left: -200px;
+    }
+    50% {
+      left: -300px;
+    }
+    60% {
+      left: -450px;
+    }
+    70% {
+      left: -600px;
+    }
+    80% {
+      left: -800px;
+    }
+    100% {
+      left: -1100px;
+      top: 0;
+      transform: rotate(360deg);
+    }
+  }
+}
+
 .rightUmb {
   width: 1650px;
   height: 1650px;
@@ -88,6 +156,10 @@
   top: 1000px;
   -webkit-animation: rightUmb 1.5s linear 1;
   animation: rightUmb 1.5s linear 1;
+  @include mobile {
+    width: 0;
+    height: 0;
+  }
 }
 
 @-webkit-keyframes rightUmb {

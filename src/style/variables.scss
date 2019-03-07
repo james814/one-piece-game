@@ -1,0 +1,20 @@
+$dark2: #222;
+$dark3: #333;
+$brown: #9a5910;
+$light_gray: #a0a0a0;
+$light_green: #77c77b;
+$light_brown: #d6ad78;
+$transparent_white1: rgba(200, 200, 200, .2);
+$transparent_white2: rgba(200, 200, 200, .4);
+$transparent_white3: rgba(240, 240, 240, .2);
+@mixin mobile_hor() {
+  @media only screen and (min-width: 560px) and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media only screen and (max-width: 559px) {
+    @content;
+  }
+}
