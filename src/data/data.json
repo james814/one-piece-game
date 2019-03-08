@@ -94,7 +94,7 @@
                         "result": {
                           "character": "托拉法爾加 羅",
                           "des": "不要命令我！",
-                          "imgClass": "Luo"
+                          "imgClass": "Law"
                         }
                       }
                     ]
@@ -486,9 +486,9 @@
                       {
                         "text": "捲髮",
                         "result": {
-                          "character": "波特卡斯 D 露珠",
+                          "character": "波特卡斯 D 露玖",
                           "des": "....",
-                          "imgClass": "Perona"
+                          "imgClass": "Rouge"
                         }
                       },
                       {
@@ -496,7 +496,7 @@
                         "result": {
                           "character": "夏洛特 雪紡",
                           "des": "貫徹仁義！不就是這麼一回事嗎?",
-                          "imgClass": "Mansherry"
+                          "imgClass": "Chiffon"
                         }
                       }
                     ]
@@ -510,7 +510,7 @@
                         "result": {
                           "character": "夏洛特 羅拉",
                           "des": "你要和我結婚嗎?",
-                          "imgClass": "Rage"
+                          "imgClass": "Lora"
                         }
                       },
                       {
@@ -518,7 +518,7 @@
                         "result": {
                           "character": "娜美",
                           "des": "我喜歡錢和橘子",
-                          "imgClass": "Ivankov"
+                          "imgClass": "Nami"
                         }
                       }
                     ]

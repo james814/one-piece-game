@@ -139,9 +139,11 @@ body {
     position: absolute;
     z-index: 10;
     @include mobile_hor {
+      font-size: 30px;
       left: 55%;
     }
     @include mobile {
+      font-size: 40px;
       top: 80%;
       left: 10%;
     }
@@ -204,9 +206,6 @@ body {
       margin: auto;
       top: 52px;
       left: 80px;
-      background-size: cover;
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
       border-radius: 50%;
       position: absolute;
       z-index: 1;

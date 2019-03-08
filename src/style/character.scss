@@ -1,91 +1,389 @@
-.CurBi {
-  .img {
-    background-image: url(./images/character/CurBi.jpg);
-  }
-  &:hover {
-    .img {
-      background-image: url(./images/character/CurBi_H.jpg);
-    }
-  }
+$imagedir:'./images/character/'; // define the base path before the mixin
+@mixin bg($filename, $position:50% 50%, $repeat: no-repeat) {
+  background: url(#{$imagedir}#{$filename}) $position $repeat;
+  background-size: cover;
 }
 
-.Ross {
+.Ace {
   .img {
-    background-image: url(./images/character/Ross.png);
+    @include bg('Ace.jpg');
   }
-  &:hover {
+  &:hover,
+  &:active {
     .img {
-      background-image: url(./images/character/Ross_H.jpg);
-      background-position: 30% 50% !important;
-    }
-  }
-}
-
-.Zoro {
-  .img {
-    background-image: url(./images/character/Zoro.png);
-    background-position: 10% 50% !important;
-  }
-  &:hover {
-    .img {
-      background-image: url(./images/character/Zoro_H.jpg);
+      @include bg('Ace_H.jpg');
     }
   }
 }
 
 .Luffy {
   .img {
-    background-image: url(./images/character/Luffy.jpg);
+    @include bg('Luffy.jpg');
   }
-  &:hover {
+  &:hover,
+  &:active {
     .img {
-      background-image: url(./images/character/Luffy_H.png);
+      @include bg('Luffy_H.jpg');
     }
   }
 }
 
-.Guleiwa {
+.Sanji {
   .img {
-    background-image: url(./images/character/Guleiwa.jpg);
+    @include bg('Sanji.jpg');
   }
-  &:hover {
+  &:hover,
+  &:active {
     .img {
-      background-image: url(./images/character/Guleiwa_H.jpeg);
+      @include bg('Sanji_H.jpg');
     }
   }
 }
 
-.Nami {
+.Law {
   .img {
-    background-image: url(./images/character/Nami.jpg);
-    background-position: 80% 50% !important;
+    @include bg('Law.jpg');
   }
-  &:hover {
+  &:hover,
+  &:active {
     .img {
-      background-image: url(./images/character/Nami_H.jpg);
+      @include bg('Law_H.jpg');
+    }
+  }
+}
+
+.Enel {
+  .img {
+    @include bg('Enel.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Enel_H.jpg');
+    }
+  }
+}
+
+.Flamingo {
+  .img {
+    @include bg('Flamingo.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Flamingo_H.jpg');
+    }
+  }
+}
+
+.Crocodile {
+  .img {
+    @include bg('Crocodile.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Crocodile_H.jpg');
+    }
+  }
+}
+
+.Borsalino {
+  .img {
+    @include bg('Borsalino.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Borsalino_H.jpg');
+    }
+  }
+}
+
+.CurBi {
+  .img {
+    @include bg('CurBi.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('CurBi_H.jpg');
+    }
+  }
+}
+
+.Garp {
+  .img {
+    @include bg('Garp.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Garp_H.jpg');
+    }
+  }
+}
+
+.Zoro {
+  .img {
+    @include bg('Zoro.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Zoro_H.jpg');
+    }
+  }
+}
+
+.Rayleigh {
+  .img {
+    @include bg('Rayleigh.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Rayleigh_H.jpg');
+    }
+  }
+}
+
+.Usopp {
+  .img {
+    @include bg('Usopp.png');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Usopp_H.jpg');
+    }
+  }
+}
+
+.Hannyabal {
+  .img {
+    @include bg('Hannyabal.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Hannyabal_H.jpg');
+    }
+  }
+}
+
+.Duval_handsome {
+  .img {
+    @include bg('Duval_handsome.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Duval_handsome_H.png');
+    }
+  }
+}
+
+.Duval_ugly {
+  .img {
+    @include bg('Duval_ugly.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Duval_ugly_H.jpg');
+    }
+  }
+}
+
+.Hancock {
+  .img {
+    @include bg('Hancock.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Hancock_H.jpg');
+    }
+  }
+}
+
+.Robin {
+  .img {
+    @include bg('Robin.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Robin_H.jpg');
+    }
+  }
+}
+
+.Kalifa {
+  .img {
+    @include bg('Kalifa.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Kalifa_H.jpg');
+    }
+  }
+}
+
+.Pudding {
+  .img {
+    @include bg('Pudding.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Pudding_H.jpg');
+    }
+  }
+}
+
+.Perona {
+  .img {
+    @include bg('Perona.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Perona_H.jpg');
     }
   }
 }
 
 .Mansherry {
   .img {
-    background-image: url(./images/character/Mansherry.jpg);
+    @include bg('Mansherry.jpg');
   }
-  &:hover {
+  &:hover,
+  &:active {
     .img {
-      background-image: url(./images/character/Mansherry_H.jpg);
+      @include bg('Mansherry_H.jpg');
+    }
+  }
+}
+
+.Rage {
+  .img {
+    @include bg('Rage.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Rage_H.jpg');
+    }
+  }
+}
+
+.Ivankov {
+  .img {
+    @include bg('Ivankov.png');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Ivankov_H.jpg');
+    }
+  }
+}
+
+.Rouge {
+  .img {
+    @include bg('Rouge.png');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Rouge_H.png');
+    }
+  }
+}
+
+.Chiffon {
+  .img {
+    @include bg('Chiffon.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Chiffon_H.jpg');
     }
   }
 }
 
 .Lora {
   .img {
-    background-image: url(./images/character/Lora.png);
-    background-position: 50% 0 !important;
+    @include bg('Lora.png');
   }
-  &:hover {
+  &:hover,
+  &:active {
     .img {
-      background-image: url(./images/character/Lora_H.jpg);
+      @include bg('Lora_H.jpg');
+    }
+  }
+}
+
+.Nami {
+  .img {
+    @include bg('Nami.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Nami_H.jpg');
+    }
+  }
+}
+
+.Poseidon {
+  .img {
+    @include bg('Poseidon.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Poseidon_H.jpg');
+    }
+  }
+}
+
+.Vivi {
+  .img {
+    @include bg('Vivi.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Vivi_H.jpg');
+    }
+  }
+}
+
+.Dadan {
+  .img {
+    @include bg('Dadan.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Dadan_H.jpg');
+    }
+  }
+}
+
+.Panda {
+  .img {
+    @include bg('Panda.jpg');
+  }
+  &:hover,
+  &:active {
+    .img {
+      @include bg('Panda_H.jpg');
     }
   }
 }
