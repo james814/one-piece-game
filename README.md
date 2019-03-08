@@ -18,21 +18,21 @@ I use React Component state to control the transition or animation, and the targ
 ### `data stream`
 ```
 {
-  id: uni-id
-  context: 'question text'
+  id: uni-id,
+  context: 'question text',
   answer:[
     {
-      text: 'btn1 text'
+      text: 'btn1 text',
       target: next question id
     },
     {
-      text: 'btn2 text'
+      text: 'btn2 text',
       target: next question id
     }
-  ]
+  ],
   nextQuestions: [
-    id: uni-id
-    context: 'question text'
+    id: uni-id,
+    context: 'question text',
     ...
   ]
 }

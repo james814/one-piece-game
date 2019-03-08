@@ -15,59 +15,287 @@
     "nextQuestions": [
       {
         "id": 21,
-        "content": "你愛好和平? 亦或是路見不平，拔刀相助?",
+        "content": "常常幻想自己也有超能力?",
         "answers": [
           {
-            "text": "和平",
+            "text": "是",
             "target": 31
           },
           {
-            "text": "路見不平",
+            "text": "否",
             "target": 32
           }
         ],
         "nextQuestions": [
           {
             "id": 31,
-            "content": "你是個肥宅嗎?",
+            "content": "對你來說什麼最重要?",
             "answers": [
               {
-                "text": "是",
-                "result": {
-                  "character": "克比",
-                  "des": "有自知之明的你，總有成長蛻變的一天喔!!",
-                  "imgClass": "CurBi"
-                }
+                "text": "義氣",
+                "target": 41
               },
               {
-                "text": "否",
-                "result": {
-                  "character": "查爾羅斯聖",
-                  "des": "不承認的通常都......",
-                  "imgClass": "Ross"
-                }
+                "text": "利益",
+                "target": 42
+              }
+            ],
+            "nextQuestions": [
+              {
+                "id": 41,
+                "content": "你是個大胃王嗎?",
+                "answers": [
+                  {
+                    "text": "是",
+                    "target": 51
+                  },
+                  {
+                    "text": "否",
+                    "target": 52
+                  }
+                ],
+                "nextQuestions": [
+                  {
+                    "id": 51,
+                    "content": "做事會用腦嗎?",
+                    "answers": [
+                      {
+                        "text": "是",
+                        "result": {
+                          "character": "波特卡斯 D 艾斯",
+                          "des": "要是向力量屈服，那我身為男人就沒有任何意義",
+                          "imgClass": "Ace"
+                        }
+                      },
+                      {
+                        "text": "否",
+                        "result": {
+                          "character": "蒙其 D 魯夫",
+                          "des": "我要成為海賊王！",
+                          "imgClass": "Luffy"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 52,
+                    "content": "哪個職業比較吸引你?",
+                    "answers": [
+                      {
+                        "text": "廚師",
+                        "result": {
+                          "character": "文斯莫克 香吉士",
+                          "des": "好想變成透明人啊！！！",
+                          "imgClass": "Sanji"
+                        }
+                      },
+                      {
+                        "text": "醫生",
+                        "result": {
+                          "character": "托拉法爾加 羅",
+                          "des": "不要命令我！",
+                          "imgClass": "Luo"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 42,
+                "content": "常常覺得自己是神?",
+                "answers": [
+                  {
+                    "text": "是",
+                    "target": 53
+                  },
+                  {
+                    "text": "否",
+                    "target": 54
+                  }
+                ],
+                "nextQuestions": [
+                  {
+                    "id": 53,
+                    "content": "關於墨鏡穿搭",
+                    "answers": [
+                      {
+                        "text": "必備",
+                        "result": {
+                          "character": "艾涅爾",
+                          "des": "不是神令你感到恐懼，而是神的存在就是恐懼",
+                          "imgClass": "Enel"
+                        }
+                      },
+                      {
+                        "text": "沒在用",
+                        "result": {
+                          "character": "唐吉訶德 多佛朗明哥",
+                          "des": "正義會勝?那是當然的吧，只有勝者，才是正義啊！",
+                          "imgClass": "Flamingo"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 54,
+                    "content": "去動物園喜歡看哪哪種動物?",
+                    "answers": [
+                      {
+                        "text": "爬蟲類",
+                        "result": {
+                          "character": "克洛克達爾",
+                          "des": "喪家犬跟人談論什麼正義",
+                          "imgClass": "Crocodile"
+                        }
+                      },
+                      {
+                        "text": "靈長類",
+                        "result": {
+                          "character": "「黃猿」波爾薩利諾",
+                          "des": "速度即是重量，你有被光速踢過嗎?",
+                          "imgClass": "Borsalino"
+                        }
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
             "id": 32,
-            "content": "你平常做事會用腦嗎?",
+            "content": "遇到壞人打劫時你會",
             "answers": [
               {
-                "text": "是",
-                "result": {
-                  "character": "索隆",
-                  "des": "世界第一劍客!!如果沒有迷路就包在我身上",
-                  "imgClass": "Zoro"
-                }
+                "text": "拔刀相助",
+                "target": 43
               },
               {
-                "text": "否",
-                "result": {
-                  "character": "魯夫",
-                  "des": "腦子是個好東西，我希望你也有一個",
-                  "imgClass": "Luffy"
-                }
+                "text": "干我屁事",
+                "target": 44
+              }
+            ],
+            "nextQuestions": [
+              {
+                "id": 43,
+                "content": "看到路邊的萌萌小動物",
+                "answers": [
+                  {
+                    "text": "被萌死",
+                    "target": 55
+                  },
+                  {
+                    "text": "...?",
+                    "target": 56
+                  }
+                ],
+                "nextQuestions": [
+                  {
+                    "id": 55,
+                    "content": "你是個肥宅嗎?",
+                    "answers": [
+                      {
+                        "text": "我就是",
+                        "result": {
+                          "character": "克比",
+                          "des": "肥宅如你，總有一天也會變成帥氣的強者的！",
+                          "imgClass": "CurBi"
+                        }
+                      },
+                      {
+                        "text": "才不是",
+                        "result": {
+                          "character": "蒙其 D 卡普",
+                          "des": "我的仙貝呢?......zzzz...",
+                          "imgClass": "Garp"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 56,
+                    "content": "你是路痴嗎?",
+                    "answers": [
+                      {
+                        "text": "是",
+                        "result": {
+                          "character": "羅羅亞 索隆",
+                          "des": "背上的傷，是劍士的恥辱！",
+                          "imgClass": "Zoro"
+                        }
+                      },
+                      {
+                        "text": "否",
+                        "result": {
+                          "character": "席爾巴斯 雷利",
+                          "des": "有變數才是人生！",
+                          "imgClass": "Rayleigh"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 44,
+                "content": "你說謊不眨眼嗎?",
+                "answers": [
+                  {
+                    "text": "簡單",
+                    "target": 57
+                  },
+                  {
+                    "text": "最誠實了",
+                    "target": 58
+                  }
+                ],
+                "nextQuestions": [
+                  {
+                    "id": 57,
+                    "content": "可以接受的缺陷",
+                    "answers": [
+                      {
+                        "text": "長鼻子",
+                        "result": {
+                          "character": "騙人布",
+                          "des": "我得了踏上陸地就會死掉的病",
+                          "imgClass": "Usopp"
+                        }
+                      },
+                      {
+                        "text": "大肚子",
+                        "result": {
+                          "character": "般若拔",
+                          "des": "我要當局長！！",
+                          "imgClass": "Hannyabal"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 58,
+                    "content": "有整過形嗎?",
+                    "answers": [
+                      {
+                        "text": "是",
+                        "result": {
+                          "character": "迪巴魯",
+                          "des": "帥哥飛魚騎士團長",
+                          "imgClass": "Duval_handsome"
+                        }
+                      },
+                      {
+                        "text": "否",
+                        "result": {
+                          "character": "迪巴魯",
+                          "des": "我不是香吉士阿阿阿",
+                          "imgClass": "Duval_ugly"
+                        }
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -75,7 +303,7 @@
       },
       {
         "id": 22,
-        "content": "妳有前凸後翹的好身材嗎?",
+        "content": "常常幻想自己也有超能力?",
         "answers": [
           {
             "text": "是",
@@ -89,45 +317,273 @@
         "nextQuestions": [
           {
             "id": 33,
-            "content": "如果可以，妳想住在一棟城堡裡嗎?",
+            "content": "妳覺得自己是女神級別的人嗎?",
             "answers": [
               {
                 "text": "是",
-                "result": {
-                  "character": "Dr.古蕾娃",
-                  "des": "想知道我永保青春的秘訣嗎?",
-                  "imgClass": "Guleiwa"
-                }
+                "target": 45
               },
               {
                 "text": "否",
-                "result": {
-                  "character": "娜美",
-                  "des": "城堡算什麼，我只要很多的$$$",
-                  "imgClass": "Nami"
-                }
+                "target": 46
+              }
+            ],
+            "nextQuestions": [
+              {
+                "id": 45,
+                "content": "妳的個性如何?",
+                "answers": [
+                  {
+                    "text": "直接",
+                    "target": 59
+                  },
+                  {
+                    "text": "詭計多端",
+                    "target": 510
+                  }
+                ],
+                "nextQuestions": [
+                  {
+                    "id": 59,
+                    "content": "妳的個性為何?",
+                    "answers": [
+                      {
+                        "text": "高傲",
+                        "result": {
+                          "character": "波雅 漢考克",
+                          "des": "魯夫.....♥",
+                          "imgClass": "Hancock"
+                        }
+                      },
+                      {
+                        "text": "友善",
+                        "result": {
+                          "character": "妮可 羅賓",
+                          "des": "身為一個人這實在是太丟臉了",
+                          "imgClass": "Robin"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 510,
+                    "content": "比較喜歡成為哪種風格的女生?",
+                    "answers": [
+                      {
+                        "text": "OL",
+                        "result": {
+                          "character": "卡莉法",
+                          "des": "你這是性騷擾",
+                          "imgClass": "Kalifa"
+                        }
+                      },
+                      {
+                        "text": "鄰家女孩",
+                        "result": {
+                          "character": "夏洛特 布琳",
+                          "des": "香吉士.....先生♥",
+                          "imgClass": "Pudding"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 46,
+                "content": "妳有少女心嗎?",
+                "answers": [
+                  {
+                    "text": "有",
+                    "target": 511
+                  },
+                  {
+                    "text": "沒有",
+                    "target": 512
+                  }
+                ],
+                "nextQuestions": [
+                  {
+                    "id": 511,
+                    "content": "哪種故事比較吸引妳?",
+                    "answers": [
+                      {
+                        "text": "鬼故事",
+                        "result": {
+                          "character": "培羅娜",
+                          "des": "呵囉呵囉～",
+                          "imgClass": "Perona"
+                        }
+                      },
+                      {
+                        "text": "小精靈",
+                        "result": {
+                          "character": "蔓雪莉",
+                          "des": "療癒系，萌死人不償命",
+                          "imgClass": "Mansherry"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 512,
+                    "content": "喜歡怎麼樣的髮型?",
+                    "answers": [
+                      {
+                        "text": "短髮",
+                        "result": {
+                          "character": "文斯莫克 蕾玖",
+                          "des": "大海如此寬廣，有一天你一定會遇見溫柔的人們",
+                          "imgClass": "Rage"
+                        }
+                      },
+                      {
+                        "text": "爆炸頭",
+                        "result": {
+                          "character": "艾波利歐 伊娃柯夫",
+                          "des": "奇跡絕不會降臨在已經宣告自我放棄的人身上，不要看不起奇跡！",
+                          "imgClass": "Ivankov"
+                        }
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
             "id": 34,
-            "content": "妳是個愛哭鬼嗎?",
+            "content": "妳嚮往怎樣的生活?",
             "answers": [
               {
-                "text": "是",
-                "result": {
-                  "character": "蔓雪莉",
-                  "des": "療癒系，萌死人不償命",
-                  "imgClass": "Mansherry"
-                }
+                "text": "自由",
+                "target": 47
               },
               {
-                "text": "否",
-                "result": {
-                  "character": "蘿拉",
-                  "des": "心理最堅強的女人，非我莫屬",
-                  "imgClass": "Lora"
-                }
+                "text": "規矩",
+                "target": 48
+              }
+            ],
+            "nextQuestions": [
+              {
+                "id": 47,
+                "content": "妳為人母了嗎?",
+                "answers": [
+                  {
+                    "text": "是",
+                    "target": 513
+                  },
+                  {
+                    "text": "否",
+                    "target": 514
+                  }
+                ],
+                "nextQuestions": [
+                  {
+                    "id": 513,
+                    "content": "喜歡捲髮還是直髮?",
+                    "answers": [
+                      {
+                        "text": "捲髮",
+                        "result": {
+                          "character": "波特卡斯 D 露珠",
+                          "des": "....",
+                          "imgClass": "Perona"
+                        }
+                      },
+                      {
+                        "text": "直髮",
+                        "result": {
+                          "character": "夏洛特 雪紡",
+                          "des": "貫徹仁義！不就是這麼一回事嗎?",
+                          "imgClass": "Mansherry"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 514,
+                    "content": "對你人生最重要的事",
+                    "answers": [
+                      {
+                        "text": "結婚",
+                        "result": {
+                          "character": "夏洛特 羅拉",
+                          "des": "你要和我結婚嗎?",
+                          "imgClass": "Rage"
+                        }
+                      },
+                      {
+                        "text": "錢錢錢",
+                        "result": {
+                          "character": "娜美",
+                          "des": "我喜歡錢和橘子",
+                          "imgClass": "Ivankov"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 48,
+                "content": "妳認為妳是公主嗎?",
+                "answers": [
+                  {
+                    "text": "還用講",
+                    "target": 515
+                  },
+                  {
+                    "text": "否",
+                    "target": 516
+                  }
+                ],
+                "nextQuestions": [
+                  {
+                    "id": 515,
+                    "content": "妳是愛哭鬼嗎?",
+                    "answers": [
+                      {
+                        "text": "是",
+                        "result": {
+                          "character": "白星",
+                          "des": "在人家的身上做什麼呢?",
+                          "imgClass": "Poseidon"
+                        }
+                      },
+                      {
+                        "text": "否",
+                        "result": {
+                          "character": "納菲魯塔莉 薇薇",
+                          "des": "如果哪天有機會再重逢，你們還願意叫我一聲夥伴嗎?",
+                          "imgClass": "Vivi"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 516,
+                    "content": "對於彩蛋的看法",
+                    "answers": [
+                      {
+                        "text": "不重要",
+                        "result": {
+                          "character": "卡莉 達坦",
+                          "des": "魯夫！艾斯！薩波！！",
+                          "imgClass": "Dadan"
+                        }
+                      },
+                      {
+                        "text": "彩蛋迷",
+                        "result": {
+                          "character": "熊貓人",
+                          "des": "恭喜你找到熊貓人啦！！",
+                          "imgClass": "Panda"
+                        }
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }

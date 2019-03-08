@@ -89,7 +89,7 @@ body {
     padding: 20px;
     margin: 20px 60px 20px 20px;
     border: none;
-    border-radius: 0 50% 0 0;
+    border-radius: 0 30px 0 0;
     position: relative;
     outline: none;
     cursor: pointer;
@@ -137,6 +137,7 @@ body {
     top: 20%;
     left: 50%;
     position: absolute;
+    z-index: 10;
     @include mobile_hor {
       left: 55%;
     }
@@ -174,7 +175,6 @@ body {
     top: 10%;
     left: -15%;
     position: absolute;
-    cursor: none;
     @include mobile_hor {
       top: -5%;
       left: -2%;
