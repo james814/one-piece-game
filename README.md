@@ -16,24 +16,26 @@ This project is made using the React.js framework and the Sass preprocessor, and
 I use React Component state to control the transition or animation, and the target of the data stream id helps program to achieve the output of each question.
 
 ### `data stream`
-{<br>
-  id: uni-id<br>
-  context: 'question text'<br>
-  answer:[<br>
-    {<br>
-      text: 'btn1 text'<br>
-      target: next question id<br>
-    },<br>
-    {<br>
-      text: 'btn2 text'<br>
-      target: next question id<br>
-    }<br>
-  ]<br>
-  nextQuestions: [<br>
-    id: uni-id<br>
-    context: 'question text'<br>
-    ...<br>
-  ]<br>
-}<br>
+```
+{
+  id: uni-id
+  context: 'question text'
+  answer:[
+    {
+      text: 'btn1 text'
+      target: next question id
+    },
+    {
+      text: 'btn2 text'
+      target: next question id
+    }
+  ]
+  nextQuestions: [
+    id: uni-id
+    context: 'question text'
+    ...
+  ]
+}
+```
 
 Hope you like this game. :)
