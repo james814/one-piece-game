@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/one-piece-game/static/media/Duval_handsome.e2e5eb9e.jpg"
   },
   {
-    "revision": "4823a80bab4514864df9",
-    "url": "/one-piece-game/static/css/main.965c4afb.chunk.css"
+    "revision": "c0eedd5e9fbf1f0ceecc",
+    "url": "/one-piece-game/static/css/main.b2a86249.chunk.css"
   },
   {
     "revision": "412833e86127d196e7d2",
@@ -136,20 +136,20 @@ self.__precacheManifest = [
     "url": "/one-piece-game/static/media/Vivi_H.5cf7dbce.jpg"
   },
   {
-    "revision": "eb5b8e792c4429aebc4ea19cb727266d",
-    "url": "/one-piece-game/static/media/Borsalino.eb5b8e79.jpg"
-  },
-  {
     "revision": "8bfd86096bcf70a52366ada97370f3ad",
     "url": "/one-piece-game/static/media/Flamingo_H.8bfd8609.jpg"
+  },
+  {
+    "revision": "eb5b8e792c4429aebc4ea19cb727266d",
+    "url": "/one-piece-game/static/media/Borsalino.eb5b8e79.jpg"
   },
   {
     "revision": "162ac02f5202a1328fabd407957f434f",
     "url": "/one-piece-game/static/media/Usopp_H.162ac02f.jpg"
   },
   {
-    "revision": "4823a80bab4514864df9",
-    "url": "/one-piece-game/static/js/main.4823a80b.chunk.js"
+    "revision": "c0eedd5e9fbf1f0ceecc",
+    "url": "/one-piece-game/static/js/main.c0eedd5e.chunk.js"
   },
   {
     "revision": "08e23945b24d4b31a045929271558f65",
@@ -184,12 +184,12 @@ self.__precacheManifest = [
     "url": "/one-piece-game/static/media/Vivi.62c7fc9a.jpg"
   },
   {
-    "revision": "5c7a30bb7daa82947abc9dd719d238ce",
-    "url": "/one-piece-game/static/media/Dadan_H.5c7a30bb.jpg"
-  },
-  {
     "revision": "5799a01b21e835a05f20244baaeb06fe",
     "url": "/one-piece-game/static/media/Panda_H.5799a01b.jpg"
+  },
+  {
+    "revision": "5c7a30bb7daa82947abc9dd719d238ce",
+    "url": "/one-piece-game/static/media/Dadan_H.5c7a30bb.jpg"
   },
   {
     "revision": "8440852fcc94b4b05e12d498cd325702",
@@ -220,6 +220,10 @@ self.__precacheManifest = [
     "url": "/one-piece-game/static/media/Mansherry.804eda51.jpg"
   },
   {
+    "revision": "79403efa9a410f62a4a964908233a1be",
+    "url": "/one-piece-game/static/media/Nami.79403efa.jpg"
+  },
+  {
     "revision": "44e514cef0c311bf599db960b4cd59b0",
     "url": "/one-piece-game/static/media/Zoro.44e514ce.jpg"
   },
@@ -232,10 +236,6 @@ self.__precacheManifest = [
     "url": "/one-piece-game/static/media/Borsalino_H.39a9ffa4.jpg"
   },
   {
-    "revision": "79403efa9a410f62a4a964908233a1be",
-    "url": "/one-piece-game/static/media/Nami.79403efa.jpg"
-  },
-  {
     "revision": "f2a41cfe3d9bfa0e08caa175e499a787",
     "url": "/one-piece-game/static/media/Crocodile.f2a41cfe.jpg"
   },
@@ -244,12 +244,12 @@ self.__precacheManifest = [
     "url": "/one-piece-game/static/media/Flamingo.b4cb89d1.jpg"
   },
   {
-    "revision": "b46f6e8a0add63d6526f667ed3a1af29",
-    "url": "/one-piece-game/static/media/Pudding.b46f6e8a.jpg"
-  },
-  {
     "revision": "95f99acef66785cb6831ea71e1fd4f0f",
     "url": "/one-piece-game/static/media/Garp.95f99ace.jpg"
+  },
+  {
+    "revision": "b46f6e8a0add63d6526f667ed3a1af29",
+    "url": "/one-piece-game/static/media/Pudding.b46f6e8a.jpg"
   },
   {
     "revision": "5b128c76f790ee091d4d37833978e495",
@@ -296,7 +296,7 @@ self.__precacheManifest = [
     "url": "/one-piece-game/static/media/Duval_handsome_H.55dcdea9.png"
   },
   {
-    "revision": "06b7cb7b901e057647c42e09fc7a26a5",
+    "revision": "091726cdfdb83f3f81f3f6f6dfc9bb2a",
     "url": "/one-piece-game/index.html"
   }
 ];
