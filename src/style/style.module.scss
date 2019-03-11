@@ -98,8 +98,17 @@ body {
       font-size: 15px;
       padding: 15px;
     }
+    @include mobile {
+      font-size: 15px;
+      padding: 15px;
+      margin: 45px auto;
+      display: block;
+    }
     &:last-child {
       margin-right: 20px;
+      @include mobile {
+        margin-right: auto;
+      }
     }
     &:hover {
       background-color: $transparent_white2;
